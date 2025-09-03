@@ -17,7 +17,7 @@ def test_3():
     assert f.puissance(0, 1) == 0
     assert f.puissance(0, 10) == 0
 
-def test_exc_1():
-    with pytest.raises(Exception):
+def test_4():
+    with pytest.raises(TypeError):
         assert f.puissance(3, 0) == 1
         assert f.puissance(0, 0) == 1
