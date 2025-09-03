@@ -6,4 +6,3 @@ def puissance(a,b):
         raise TypeError("Only integers are allowed for b")
     
     return a ** b
-
