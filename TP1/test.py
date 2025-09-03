@@ -20,4 +20,4 @@ def test_3():
 def test_4():
     with pytest.raises(ValueError):
         assert f.puissance(3, 0) == 1
-        assert f.puissance(0, 0) == 1
+    assert f.puissance(0, 0) == 1
