@@ -5,4 +5,4 @@ docker run --rm -d \
   --name tp4-sql \
   --env MYSQL_ROOT_PASSWORD=foo \
   --network net-tp4 \
-  mysql :8.0
+  mysql:8.0
