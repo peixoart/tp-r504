@@ -13,6 +13,9 @@ public class ServeurUDP {
 
             String str = new String(packet.getData());
             System.out.println("str = " + str);
+
+			sock.send(packet);
+
         }
     }
 }
